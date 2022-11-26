@@ -1,6 +1,37 @@
-title: [My local site]
-description: [A short description of your site's purpose]
-remote_theme: pages-themes/midnight@v0.2.0
+title: "nerei.net"
+author: "Lackner Reinhard"
+description: "I will use this blog as a pastebin for stuff I learn and don't want to forget." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+# email: "example@mail.com"
+mastodon_username: "macf00bar@hachyderm.io"
+github_username: "macf00bar"
+#linkedin_username: "linkedinuser"
+
+
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
 plugins:
-- jekyll-remote-theme
-show_downloads: [false]
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
