@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+I'm a software developer in the dotnet environment (primarily c#, interested f# and functional programming) with lots and lots of different interests and an avid member of the holy church of useless knowledge and can vanish for hours (ok, let's be honest, for days) in a wikipedia rabbit hole.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This is my dumpsite for all things interesting I do not want to forget.
