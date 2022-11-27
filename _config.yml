@@ -11,7 +11,7 @@ future: false # GitHub Pages will publish future posts if this isn't set to fals
 description: >-
   "I can't change the direction of the wind, but I can adjust my sails to always reach my destination." -- Jimmy Dean
 
-show_excerpts: true
+show_excerpts: false
 
 # Used by simple links page
 minima:
@@ -55,3 +55,5 @@ defaults:
 kramdown:
   syntax_highlighter_opts:
     disable: true
+
+include: [".well-known"]
