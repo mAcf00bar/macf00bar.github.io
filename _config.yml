@@ -31,7 +31,9 @@ show_excerpts: false
 social-links:
   #Resume:        https://nerei.net/resume
   Website:       https://nerei.net
-  Mastodon:      https://hachyderm.io/@macf00bar
+  Mastodon:
+    - username: macf00bar
+    - instance: https://hachyderm.io/@macf00bar
   GitHub:        https://github.com/mAcf00bar
   StackOverflow: https://stackoverflow.com/users/129283
   #LinkedIn:      https://linkedin.com/in/nerei
