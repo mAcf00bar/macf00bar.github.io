@@ -1,6 +1,6 @@
 theme: minima
 
-title: macf00bar's Blog
+title: Reinhard's playground
 author: Reinhard Lackner
 email: blog@nerei.net
 url: https://nerei.net
@@ -8,44 +8,17 @@ url: https://nerei.net
 timezone: UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
-description: >
-  \"I can't change the direction of the wind, but I can adjust my sails to always reach my destination." -- Jimmy Dean
+description: >-
+  "I can't change the direction of the wind, but I can adjust my sails to always reach my destination." -- Jimmy Dean
 
-# Minima variables
-mastodon_username: macf00bar@nerei.net
-twitter_username:  macf00bar
-github_username:   macf00bar
-#linkedin_username: jekyl
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#googleplus_username: +jekyll
-rss: rss
-
-show_excerpts: false
+show_excerpts: true
 
 # Used by simple links page
-social-links:
-  #Resume:        https://nerei.net/resume
-  Website:       https://nerei.net
-  Mastodon:
-    - username: macf00bar
-    - instance: https://hachyderm.io/@macf00bar
-  GitHub:        https://github.com/mAcf00bar
-  StackOverflow: https://stackoverflow.com/users/129283
-  #LinkedIn:      https://linkedin.com/in/nerei
-  Twitter:       https://twitter.com/mAcf00bar
-
-
-# plugin: jekyll-seo-tag
-social:
-  name: Reinhard Lackner
-  links:
-    - https://hachyderm.io/@macf00bar
-    - https://github.com/mAcf00bar
+minima:
+  social-links:
+    website: https://nerei.net
+    mastodon: macf00bar, https://hachyderm.io/@macf00bar
+    github:   macf00bar, https://github.com/mAcf00bar
 
 # plugin: jekyll-titles-from-headings
 titles_from_headings:
